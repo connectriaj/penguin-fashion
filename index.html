@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>penguin-fashion</title>
+    <!-- tailwind css cdn linkup -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- customize config for tailwind css -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- <header>
+      <section class="container mx-auto">
+        <h1 class="text-6xl font-bold uppercase">
+          <span class="text-yellow-500">Be the penguin</span>
+          <br />
+          <span>of winter</span>
+        </h1>
+      </section>
+    </header> -->
+    <main>
+      <section class="container mx-auto">
+        <div class="grid grid-cols-2 gap-x-20 my-24">
+          <!-- single side columns -->
+          <div class="mx-auto">
+            <div
+              class="col flex items-center justify-center border-0 shadow-lg my-4 rounded-xl"
+            >
+              <div class="w-20 h-20 ml-7 my-7 mr-9">
+                <img src="./images/box.png" alt="" />
+              </div>
+              <div class="py-5 pr-16">
+                <h2 class="text-2xl font-bold">Find the Perfect Fit</h2>
+                <p>
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+            <div
+              class="col flex items-center justify-center border-0 shadow-lg my-4 rounded-xl"
+            >
+              <div class="w-20 h-20 ml-7 my-7 mr-9">
+                <img src="./images/house.png" alt="" />
+              </div>
+              <div class="py-5 pr-16">
+                <h2 class="text-2xl font-bold">Find the Perfect Fit</h2>
+                <p>
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+            <div
+              class="col flex items-center justify-center border-0 shadow-lg my-4 rounded-xl"
+            >
+              <div class="w-20 h-20 ml-7 my-7 mr-9">
+                <img src="./images/question.png" alt="" />
+              </div>
+              <div class="py-5 pr-16">
+                <h2 class="text-2xl font-bold">Find the Perfect Fit</h2>
+                <p>
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- shopping image here -->
+          <div class="col items-center justify-center my-4">
+            <img class="w-4/5" src="./images/shopping.png" alt="shopping" />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
